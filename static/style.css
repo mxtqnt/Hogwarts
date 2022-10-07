@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+:root {
+    --Grifinória: #A6332E;
+    --Lufa: #EFBC2F;
+    --Corvinal: #3C4E91;
+    --Sonserina: #366447;
+    --White: #ffff;
+    --Black: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Merriweather;
+    transition: 250ms;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--White);
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: var(--White);
+}
+
+button {
+    width: calc(100%/4);
+    height: 100vh;
+    border: none;
+    color: var(--White);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.buttongrifinoria {
+    background-color: var(--Grifinória); 
+}
+
+.buttonlufa {
+    background-color: var(--Lufa);
+}
+
+.buttoncorvinal {
+    background-color: var(--Corvinal);
+}
+
+.buttonSonserina {
+    background-color: var(--Sonserina); 
+}
